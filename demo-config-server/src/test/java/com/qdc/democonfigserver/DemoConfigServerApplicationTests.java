@@ -1,10 +1,10 @@
-package com.qdc.demoeurekaprovider1;
+package com.qdc.democonfigserver;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class DemoEurekaProvider1ApplicationTests {
+class DemoConfigServerApplicationTests {
 
     @Test
     void contextLoads() {

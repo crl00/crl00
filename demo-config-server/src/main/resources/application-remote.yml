@@ -1,0 +1,13 @@
+server:
+  port: 9005
+spring:
+  application:
+    name: springcloud-config-server
+  cloud:
+    config:
+      server:
+        get:
+          uri: https://github.com/crl00/crl00.git
+          search-paths: /demo-config-server/src/main/resources/
+          username: crl00
+          password: Crl2562598240!
